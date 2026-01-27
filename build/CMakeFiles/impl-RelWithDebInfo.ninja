@@ -35,87 +35,78 @@ CONFIGURATION = RelWithDebInfo
 include CMakeFiles/common.ninja
 
 # =============================================================================
-# Object build statements for EXECUTABLE target fractal
+# Object build statements for EXECUTABLE target fractal_colectiva
 
 
 #############################################
-# Order-only phony target for fractal
+# Order-only phony target for fractal_colectiva
 
-build cmake_object_order_depends_target_fractal_RELWITHDEBINFO: phony || .
+build cmake_object_order_depends_target_fractal_colectiva_RELWITHDEBINFO: phony || .
 
-build CMakeFiles/fractal.dir/RelWithDebInfo/main_fractal.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/05_fractal_mpi/main_fractal.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
+build CMakeFiles/fractal_colectiva.dir/RelWithDebInfo/main_fractal_colectiva.cpp.obj: CXX_COMPILER__fractal_colectiva_unscanned_RelWithDebInfo C$:/tools/05_fractal_mpi/main_fractal_colectiva.cpp || cmake_object_order_depends_target_fractal_colectiva_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
-  DEP_FILE = CMakeFiles\fractal.dir\RelWithDebInfo\main_fractal.cpp.obj.d
+  DEP_FILE = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo\main_fractal_colectiva.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
-  OBJECT_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
-  OBJECT_FILE_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
-  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\RelWithDebInfo\
-  TARGET_PDB = RelWithDebInfo\fractal.pdb
+  OBJECT_DIR = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo
 
-build CMakeFiles/fractal.dir/RelWithDebInfo/fractal_mpi.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/05_fractal_mpi/fractal_mpi.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
+build CMakeFiles/fractal_colectiva.dir/RelWithDebInfo/fractal_mpi.cpp.obj: CXX_COMPILER__fractal_colectiva_unscanned_RelWithDebInfo C$:/tools/05_fractal_mpi/fractal_mpi.cpp || cmake_object_order_depends_target_fractal_colectiva_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
-  DEP_FILE = CMakeFiles\fractal.dir\RelWithDebInfo\fractal_mpi.cpp.obj.d
+  DEP_FILE = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo\fractal_mpi.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
-  OBJECT_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
-  OBJECT_FILE_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
-  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\RelWithDebInfo\
-  TARGET_PDB = RelWithDebInfo\fractal.pdb
+  OBJECT_DIR = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo
 
-build CMakeFiles/fractal.dir/RelWithDebInfo/palette.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/05_fractal_mpi/palette.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
+build CMakeFiles/fractal_colectiva.dir/RelWithDebInfo/palette.cpp.obj: CXX_COMPILER__fractal_colectiva_unscanned_RelWithDebInfo C$:/tools/05_fractal_mpi/palette.cpp || cmake_object_order_depends_target_fractal_colectiva_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
-  DEP_FILE = CMakeFiles\fractal.dir\RelWithDebInfo\palette.cpp.obj.d
+  DEP_FILE = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo\palette.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
-  OBJECT_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
-  OBJECT_FILE_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
-  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\RelWithDebInfo\
-  TARGET_PDB = RelWithDebInfo\fractal.pdb
+  OBJECT_DIR = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo
 
-build CMakeFiles/fractal.dir/RelWithDebInfo/draw_text.cpp.obj: CXX_COMPILER__fractal_unscanned_RelWithDebInfo C$:/tools/05_fractal_mpi/draw_text.cpp || cmake_object_order_depends_target_fractal_RELWITHDEBINFO
+build CMakeFiles/fractal_colectiva.dir/RelWithDebInfo/draw_text.cpp.obj: CXX_COMPILER__fractal_colectiva_unscanned_RelWithDebInfo C$:/tools/05_fractal_mpi/draw_text.cpp || cmake_object_order_depends_target_fractal_colectiva_RELWITHDEBINFO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
-  DEP_FILE = CMakeFiles\fractal.dir\RelWithDebInfo\draw_text.cpp.obj.d
+  DEP_FILE = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo\draw_text.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG
   INCLUDES = -Ic:/oneAPI/mpi/latest/include -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
-  OBJECT_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
-  OBJECT_FILE_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
-  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\RelWithDebInfo\
-  TARGET_PDB = RelWithDebInfo\fractal.pdb
+  OBJECT_DIR = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target fractal
+# Link build statements for EXECUTABLE target fractal_colectiva
 
 
 #############################################
-# Link the executable RelWithDebInfo\fractal.exe
+# Link the executable RelWithDebInfo\fractal_colectiva.exe
 
-build RelWithDebInfo/fractal.exe: CXX_EXECUTABLE_LINKER__fractal_RelWithDebInfo CMakeFiles/fractal.dir/RelWithDebInfo/main_fractal.cpp.obj CMakeFiles/fractal.dir/RelWithDebInfo/fractal_mpi.cpp.obj CMakeFiles/fractal.dir/RelWithDebInfo/palette.cpp.obj CMakeFiles/fractal.dir/RelWithDebInfo/draw_text.cpp.obj | C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a c$:/oneAPI/mpi/latest/lib/impi.lib C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-graphics.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfreetype.dll.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-window.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-system.a
+build RelWithDebInfo/fractal_colectiva.exe: CXX_EXECUTABLE_LINKER__fractal_colectiva_RelWithDebInfo CMakeFiles/fractal_colectiva.dir/RelWithDebInfo/main_fractal_colectiva.cpp.obj CMakeFiles/fractal_colectiva.dir/RelWithDebInfo/fractal_mpi.cpp.obj CMakeFiles/fractal_colectiva.dir/RelWithDebInfo/palette.cpp.obj CMakeFiles/fractal_colectiva.dir/RelWithDebInfo/draw_text.cpp.obj | C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a c$:/oneAPI/mpi/latest/lib/impi.lib C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-graphics.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfreetype.dll.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-window.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-system.a
   CONFIG = RelWithDebInfo
   FLAGS = -O2 -g -DNDEBUG
   LINK_LIBRARIES = C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a  c:/oneAPI/mpi/latest/lib/impi.lib  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-graphics.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfreetype.dll.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-window.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-system.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\fractal.dir\RelWithDebInfo
-  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\tools\05_fractal_mpi\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/05_fractal_mpi/build/RelWithDebInfo/fractal.exe -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out"
+  OBJECT_DIR = CMakeFiles\fractal_colectiva.dir\RelWithDebInfo
+  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\tools\05_fractal_mpi\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/05_fractal_mpi/build/RelWithDebInfo/fractal_colectiva.exe -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out"
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\fractal.dir\RelWithDebInfo\
-  TARGET_FILE = RelWithDebInfo\fractal.exe
-  TARGET_IMPLIB = RelWithDebInfo\libfractal.dll.a
-  TARGET_PDB = RelWithDebInfo\fractal.pdb
+  TARGET_FILE = RelWithDebInfo\fractal_colectiva.exe
+  TARGET_IMPLIB = RelWithDebInfo\libfractal_colectiva.dll.a
+  TARGET_PDB = fractal_colectiva.exe.dbg
 
-build fractal.exe$:RelWithDebInfo: phony RelWithDebInfo/fractal.exe
+build fractal_colectiva.exe$:RelWithDebInfo: phony RelWithDebInfo/fractal_colectiva.exe
 
-build fractal$:RelWithDebInfo: phony RelWithDebInfo/fractal.exe
+build fractal_colectiva$:RelWithDebInfo: phony RelWithDebInfo/fractal_colectiva.exe
 
 
 #############################################
 # Folder: C:/tools/05_fractal_mpi/build
 
-build all$:RelWithDebInfo: phony RelWithDebInfo/fractal.exe
+build all$:RelWithDebInfo: phony RelWithDebInfo/fractal_colectiva.exe
 
 
 #############################################

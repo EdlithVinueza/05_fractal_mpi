@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "fractal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fractal-Debug-8e742d00faf561071c23.json",
-					"name" : "fractal",
+					"id" : "fractal_colectiva::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fractal_colectiva-Debug-bd2f683ed9c9a5cac1a9.json",
+					"name" : "fractal_colectiva",
 					"projectIndex" : 0
 				}
 			]
@@ -82,9 +82,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "fractal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fractal-Release-04e6632144b253618d7a.json",
-					"name" : "fractal",
+					"id" : "fractal_colectiva::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fractal_colectiva-Release-5af9f31099285f923154.json",
+					"name" : "fractal_colectiva",
 					"projectIndex" : 0
 				}
 			]
@@ -126,9 +126,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "fractal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fractal-RelWithDebInfo-1ab7ed904a7911a2ed16.json",
-					"name" : "fractal",
+					"id" : "fractal_colectiva::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fractal_colectiva-RelWithDebInfo-74f38219da84ae4d056e.json",
+					"name" : "fractal_colectiva",
 					"projectIndex" : 0
 				}
 			]

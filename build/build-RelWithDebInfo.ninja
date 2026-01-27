@@ -6,9 +6,9 @@
 
 include CMakeFiles/impl-RelWithDebInfo.ninja
 
-build fractal: phony RelWithDebInfo/fractal.exe
+build fractal_colectiva: phony RelWithDebInfo/fractal_colectiva.exe
 
-build fractal.exe: phony RelWithDebInfo/fractal.exe
+build fractal_colectiva.exe: phony RelWithDebInfo/fractal_colectiva.exe
 
 
 #############################################

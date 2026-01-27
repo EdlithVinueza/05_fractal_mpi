@@ -2,6 +2,6 @@ C:\oneAPI\setvars.bat
 
 cd C:\tools\05_fractal_mpi\build\Debug
 
-mpiexec -n 4 fractal .exe
+mpiexec -n 4 fractal_colectiva .exe
 
 

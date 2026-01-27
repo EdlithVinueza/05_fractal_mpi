@@ -19,14 +19,14 @@ include_directories(
     ) 
 
     #--
-add_executable(fractal 
-    main_fractal.cpp
+add_executable(fractal_colectiva
+    main_fractal_colectiva.cpp
     fractal_mpi.cpp 
     palette.cpp
     draw_text.cpp
     )
 
-target_link_libraries(fractal  PRIVATE 
+target_link_libraries(fractal_colectiva  PRIVATE 
     fmt::fmt
     Freetype::Freetype
     ${MPI_LIB}/impi.lib

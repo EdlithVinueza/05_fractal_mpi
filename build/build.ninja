@@ -5,9 +5,9 @@
 
 include CMakeFiles/impl-Debug.ninja
 
-build fractal: phony Debug/fractal.exe
+build fractal_colectiva: phony Debug/fractal_colectiva.exe
 
-build fractal.exe: phony Debug/fractal.exe
+build fractal_colectiva.exe: phony Debug/fractal_colectiva.exe
 
 
 #############################################

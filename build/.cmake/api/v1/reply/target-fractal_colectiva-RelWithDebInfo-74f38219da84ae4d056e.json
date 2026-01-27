@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/fractal.exe"
+			"path" : "RelWithDebInfo/fractal_colectiva.exe"
 		},
 		{
-			"path" : "Release/fractal.pdb"
+			"path" : "RelWithDebInfo/fractal_colectiva.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -160,7 +160,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG"
+					"fragment" : "-O2 -g -DNDEBUG"
 				}
 			],
 			"defines" : 
@@ -192,13 +192,13 @@
 			]
 		}
 	],
-	"id" : "fractal::@6890427a1f51a3e7e1df",
+	"id" : "fractal_colectiva::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-O2 -g -DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -238,8 +238,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "fractal",
-	"nameOnDisk" : "fractal.exe",
+	"name" : "fractal_colectiva",
+	"nameOnDisk" : "fractal_colectiva.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -263,7 +263,7 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "main_fractal.cpp",
+			"path" : "main_fractal_colectiva.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

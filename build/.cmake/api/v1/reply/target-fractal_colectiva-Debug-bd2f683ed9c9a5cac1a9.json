@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/fractal.exe"
+			"path" : "Debug/fractal_colectiva.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/fractal.pdb"
+			"path" : "Debug/fractal_colectiva.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -160,7 +160,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O2 -g -DNDEBUG"
+					"fragment" : "-g"
 				}
 			],
 			"defines" : 
@@ -192,18 +192,18 @@
 			]
 		}
 	],
-	"id" : "fractal::@6890427a1f51a3e7e1df",
+	"id" : "fractal_colectiva::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O2 -g -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\lib\\libfmt.dll.a",
+				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\debug\\lib\\libfmtd.dll.a",
 				"role" : "libraries"
 			},
 			{
@@ -213,22 +213,22 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\lib\\libsfml-graphics.a",
+				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\debug\\lib\\libsfml-graphics-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 11,
-				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\lib\\libfreetype.dll.a",
+				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\debug\\lib\\libfreetyped.dll.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 17,
-				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\lib\\libsfml-window.a",
+				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\debug\\lib\\libsfml-window-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 20,
-				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\lib\\libsfml-system.a",
+				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\debug\\lib\\libsfml-system-d.a",
 				"role" : "libraries"
 			},
 			{
@@ -238,8 +238,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "fractal",
-	"nameOnDisk" : "fractal.exe",
+	"name" : "fractal_colectiva",
+	"nameOnDisk" : "fractal_colectiva.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -263,7 +263,7 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "main_fractal.cpp",
+			"path" : "main_fractal_colectiva.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

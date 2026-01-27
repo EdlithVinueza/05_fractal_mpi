@@ -6,9 +6,9 @@
 
 include CMakeFiles/impl-Release.ninja
 
-build fractal: phony Release/fractal.exe
+build fractal_colectiva: phony Release/fractal_colectiva.exe
 
-build fractal.exe: phony Release/fractal.exe
+build fractal_colectiva.exe: phony Release/fractal_colectiva.exe
 
 
 #############################################
